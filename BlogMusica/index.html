@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>MusicBlog</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="row d-flex justify-content-center cabecera">
+        <div class="d-flex flex-grow-1 col-12 col-md-auto align-items-center">
+          <img src="img/logo.png" alt="Logo MusicBlog" height="70px"/>
+          <h1>MusicBlog</h1>
+        </div>
+        <div class="align-self-end">
+          <a href="https://youtube.com" target="_blank" class="redesSociales" title="YouTube"></a>
+          <a href="https://facebook.com" target="_blank" class="redesSociales" title="FaceBook"></a>
+          <a href="https://www.instagram.com" target="_blank" class="redesSociales" title="Instagram"></a>
+          <a href="https://www.pinterest.com" target="_blank" class="redesSociales" title="Pinterest"></a>
+          <a href="https://twitter.com" target="_blank" class="redesSociales" title="Twitter"></a>
+        </div>
+      </div>
+
+      <nav class="row navbar bg-dark">
+        <div class="col-md-2 col-12"><a class="col btn btn-secundary active" href="#">Inicio</a></div>
+        <div class="col-md-2 col-12"><a class="col btn btn-secundary" href="#">Artistas</a></div>
+        <div class="col-md-2 col-12"><a class="col btn btn-secundary" href="#">Grupos</a></div>
+        <div class="col-md-2 col-12"><a class="col btn btn-secundary" href="#">Top 10</a></div>
+        <div class="col-md-2 col-12"><a class="col btn btn-secundary" href="#">Letras</a></div>
+        <div class="col-md-2 col-12"><a class="col btn btn-secundary" href="#">Acordes</a></div>
+      </nav>
+
+      <div class="row articulos">
+        <div class="col-lg-8 col-12 overflow-auto">
+          <form class="" action="index.html" method="post">
+            <div class="col card articulo">
+              <div class="row articulo">
+                <div class="col-12 col-sm-8 textoArticulo text-justify">
+                  <h5 class="card-title">El Quijote y la música <br><small>lunes, 17 de junio de 2019</small></h5>
+                  <p>A través del Centro de Recursos del Colegio Estudio y los magníficos compañeros que en él trabajan, comparto este recurso del Centro Virtual Cervantes sobre "El Quijote y la Música."</p>
+                  <p>Contiene gran cantidad de artículos sobre la presencia de la figura de Don Quijote de La Mancha en la música y merece la pena echar un vistazo, ya que la cantidad de referencias musicales sobre Don Quijote es muy diversa y enriquecedora.</p>
+                </div>
+                <div class="col-12 col-sm-4">
+                  <a href="http://cvc.cervantes.es/actcult/quijote_musica/default.htm" target="_blank"><img src="img/quijote.jpg" class="imgArt rounded" alt=""></a>
+                </div>
+
+                <div class="row input-group">
+                  <div class="input-group-prepend">
+                    <div class="icono"> </div>
+                  </div>
+                  <textarea name="tb_coment" id="tb_coment" rows="2" cols="40" class="card-text form-control" placeholder="Comentario..."></textarea>
+                </div>
+              </div>
+
+              <div class="row articulo">
+                <div class="col-12 col-sm-4">
+                  <a class="float-sm-left" href="https://planetamusik.com/blog/mejores-canciones-beatles/" target="_blank"><img src="img/TheBeatles.jpg" class="imgArt rounded" alt=""></a>
+                </div>
+                <div class="col-12 col-sm-8 textoArticulo text-justify">
+                  <h5>Listado de las Mejores Canciones de los Beatles del 10 al 1<br><small>domingo, 16 de junio de 2019</small></h5>
+                  <p>The Beatles fue una banda de rock de origen inglés fundada en 1956. Compuesta por John Lennon (cantante, guitarrista y compositor), Paul Mc Cartney (bajista, compositor, voz), George Harrison (guitarra y voz) y Ringo Starr (batería). Sus canciones y estilo psicodélico y único marcaron la historia para siempre. Aquí te traemos las mejores canciones de The Beatles…</p>
+                </div>
+
+                <div class="row input-group">
+                  <div class="input-group-prepend">
+                    <div class="icono"> </div>
+                  </div>
+                  <textarea name="tb_coment" id="tb_coment" rows="2" cols="40" class="card-text form-control" placeholder="Comentario..."></textarea>
+                </div>
+              </div>
+
+            </div>
+          </form>
+        </div>
+
+
+        <div class="col-lg-4 col-md-12 fondoGris d-none d-md-block">
+          <div class="card bloquebusqueda">
+            <form class="" action="index.html" method="post">
+
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text iconoInpunt"></div>
+                  </div>
+                  <input type="text" class="form-control" id="tb_busca" name="tb_busca" placeholder="Buscar por...">
+                </div>
+                <label for="tb_busca">Buscar</label>
+
+                <ul class="list-group">
+                  <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+                  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                  <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                  <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
+                  <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+                  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                  <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                  <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
+                  <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+                  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                  <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                  <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
+
+                </ul>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+  </body>
+</html>
