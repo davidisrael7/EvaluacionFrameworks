@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "fontello";
+  src: url("../fonts/fontello.ttf");
+}
+
+.azul{
+  background-color: cyan;
+}
+
+.rojo{
+  background-color: pink;
+}
+
+.verde{
+  background-color: rgb(120, 255, 120);
+}
+
+.blog-body{
+  background-image: url("../img/fondoCocina.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed
+}
+
+.contenido{
+  background-color: rgba(110, 114, 134, 0.85);
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.cabecera-blog{
+  border-bottom: 1px outset rgb(236, 226, 255);
+}
+
+.titulo-blog{
+  border-right: 1px outset rgb(236, 226, 255);
+  color: white ;
+  margin-bottom: 15px;
+}
+
+.cuerpo-blog{
+  min-height: 500px;
+}
+
+.menu-blog{
+  margin-top: 20px;
+  margin-left: 5px !important;
+  margin-bottom: 20px;
+}
+
+.cont-menu-blog{
+  background-color: rgb(195, 192, 212);
+  border-radius: 5px;
+  padding: 10px;
+  color: rgb(197, 96, 209) !important;
+}
+
+.iconoInpunt{
+  font-family: "fontello";
+  font-size: 15px;
+  background-color: rgb(197, 96, 209);
+  color: white;
+}
+
+menu-blog .button{
+  border-color: rgb(197, 96, 209) !important;
+  color: rgb(197, 96, 209) !important;
+}
+
+.favorito-blog{
+  margin-top: 40px;
+}
+
+
+.foto-Fav{
+  padding: 3px;
+}
+
+.historial-blog a{
+  color: rgb(197, 96, 209);
+}
+
+.list-item{
+  margin: 10px;
+  margin-left: 15px;
+}
+
+.posts{
+  min-height: 500px;
+  margin-top: 20px;
+  margin-left: 25px !important;
+}
+
+.post{
+  background-color: rgb(246, 213, 236);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.articulo{
+  border-bottom: 1px outset rgb(236, 226, 255);
+}
+
+.articulo a{
+  color: black;
+}
+
+.blog-coment{
+  padding-top: 20px;
+  border-bottom: 1px outset rgb(236, 226, 255);
+  padding-bottom: 10px;
+}
+
+.blog-coment .button{
+  background-color: rgb(197, 96, 209);
+}
+
+.comentario{
+  border: 1px solid rgb(200, 170, 199);
+  border-radius: 5px;
+  padding: 5px;
+  color: rgb(144, 126, 143);
+  margin: 2px;
+}
+
+.iconoComent{
+  font-family: "fontello";
+  font-size: 15px;
+}
