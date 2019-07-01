@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "fontello";
+  src: url("../fonts/fontello.ttf");
+}
+
+.blog-body{
+  background-image: url("../img/fondoPaisaje.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#464646;
+}
+
+.logo-blog{
+  margin-top: 10px;
+}
+
+.img-logo{
+  min-width: 80px;
+  max-width: 150px;
+  width: 100%;
+}
+
+.menu-blog .btn{
+  margin-left: 2px !important;
+  margin-right: 2px !important;
+  font-size: 11px;
+  padding-left: 3px;
+  padding-right: 5px;
+}
+
+.slogan-blog{
+  font-family: "Permanent Marker";
+  height: 70px;
+  margin-top: 15px;
+}
+
+.redesSociales-blog{
+
+}
+
+.redesSociales{
+  font-family: "fontello";
+  color: white;
+  font-style: normal;
+  font-size: 40px;
+  margin-right: 5px;
+}
+
+.galeria-blog img{
+  margin-top: 5px;
+}
+
+.post-blog{
+  border-radius: 5px;
+  padding: 15px;
+  text-align: justify;
+}
+
+.img-post-blog{
+  margin-right: 15px;
+  width: 200px;
+}
+
+.post-blog a{
+  color: black;
+}
+
+.coment-blog{
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.input-field [type=text], .input-field [type=email] {
+    color: white;
+}
+
+.input-field .prefix.active {
+  color: white;
+}
+
+.coment-blog .btn{
+  margin-right: 15px;
+}
+
+.autor-blog{
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 10px;
+}
+
+@media (max-width: 600px) {
+  .img-post-blog{
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .datos-autor-blog{
+    margin-top: 15px;
+  }
+  
+}

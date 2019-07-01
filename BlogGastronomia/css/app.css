@@ -3,18 +3,6 @@
   src: url("../fonts/fontello.ttf");
 }
 
-.azul{
-  background-color: cyan;
-}
-
-.rojo{
-  background-color: pink;
-}
-
-.verde{
-  background-color: rgb(120, 255, 120);
-}
-
 .blog-body{
   background-image: url("../img/fondoCocina.jpg");
   background-position: center center;
@@ -96,6 +84,7 @@ menu-blog .button{
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 20px;
+  margin-left: -21px;
 }
 
 .articulo{
@@ -127,4 +116,14 @@ menu-blog .button{
 .iconoComent{
   font-family: "fontello";
   font-size: 15px;
+}
+
+@media (max-width:580px) {
+  .posts{
+    margin: 0 auto;
+  }
+
+  .cuerpo-blog{
+    margin: auto;
+  }
 }
